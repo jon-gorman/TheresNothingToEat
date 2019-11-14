@@ -1,0 +1,120 @@
+.body {
+  display: flex;
+  height: 5000px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.jumbotron {
+  width: 100%;
+  background-image: url("https://cdn.wallpapersafari.com/89/69/7lcvoK.jpg");
+  background-size: 100% 100%;
+
+}
+
+.list-group {
+  left: 34%;
+}
+
+#list {
+  list-style-type: none;
+  font-family: 'Playfair Display SC', serif;
+  color: #9A3014;
+}
+
+#listSignIn {
+  font-family: 'Playfair Display', serif;
+  color: black;
+}
+
+#signUpSignIn {
+  font-family: 'Aclonica', sans-serif;
+}
+
+.buttonColor {
+  background-color: #C6CBCC;
+  color: ButtonText;
+  font-family: 'Aclonica', sans-serif;
+
+}
+
+#searchButton {
+
+  background-color: #C6CBCC;
+  border-color: #9A3014;
+  color: black;
+}
+
+#container {
+  width: 100% !important;
+}
+
+#navBar {
+  width: 100% !important;
+
+}
+
+#boxShade {
+
+  box-shadow: 5px 10px 5px lightslategrey;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0%;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-device-width: 450px) {
+  #phone {
+    font-family: 'Playfair Display', serif;
+    color: orange;
+    left: 2%;
+  }
+
+  .phoneTitle {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .phoneSearch {
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+  }
+
+  .cooking {
+    margin-top: -10px;
+  }
+
+}
